@@ -1,0 +1,27 @@
+@import url(_reset.css);
+body {
+  background: #0a1026; }
+
+#space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+#sun {
+  width: 20em;
+  height: 20em;
+  background: #ffc902;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px; }
+
+#earth {
+  width: 5em;
+  height: 5em;
+  background: #2e9cea;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px; }
+
+/*# sourceMappingURL=styles.css.map */
