@@ -1,13 +1,22 @@
 @import url(_reset.css);
 body {
-  background: #0a1026; }
+  background: #0a1026;
+  height: 100vh; }
 
+@keyframes planetspin {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
 #space {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  zoom: 1; }
+  height: 100%;
+  zoom: 1;
+  overflow: hidden; }
 
 #sun {
   width: 20em;
@@ -16,14 +25,42 @@ body {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#earth_wrapper {
+  animation-name: planetspin;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: -2s; }
 
 #earth {
-  width: 10em;
-  height: 10em;
+  width: 5em;
+  height: 5em;
   background: #2e9cea;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
-  border-radius: 500px; }
+  border-radius: 500px;
+  transform: translateX(30em);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#moon_wrapper {
+  animation-name: planetspin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+#moon {
+  width: 1em;
+  height: 1em;
+  background: #a0a0a0;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  transform: translateX(5em); }
 
 /*# sourceMappingURL=styles.css.map */
