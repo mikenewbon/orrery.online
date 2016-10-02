@@ -6,7 +6,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; }
+  height: 100vh;
+  zoom: 1; }
 
 #sun {
   width: 20em;
@@ -14,11 +15,12 @@ body {
   background: #ffc902;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
-  border-radius: 500px; }
+  border-radius: 500px;
+  display: flex; }
 
 #earth {
-  width: 5em;
-  height: 5em;
+  width: 10em;
+  height: 10em;
   background: #2e9cea;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;

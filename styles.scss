@@ -9,6 +9,7 @@ body{
   justify-content: center;
   align-items: center;
   height:100vh;
+  zoom:1;
 }
 
 #sun{
@@ -18,7 +19,7 @@ body{
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  display: ;
+  display: flex;
 }
 
 #earth{
