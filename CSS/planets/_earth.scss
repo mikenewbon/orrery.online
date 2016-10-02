@@ -1,0 +1,83 @@
+$earthsize:5em;
+
+#earth_orbit{
+  position: absolute;
+  width: 60em;
+  height:60em;
+  background: none;
+  border: .25em dashed white;
+  border-radius:50%;
+  left: -20em;
+  top: -20em;
+  box-sizing: border-box;
+}
+
+#earth_wrapper{
+  animation-name: planetspin;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: -2s;
+  width:$sunsize;
+  height:$sunsize;
+  position: absolute;
+  left:19.75em;
+  top: 19.75em;
+}
+
+#earth{
+  width: $earthsize;
+  height: $earthsize;
+  background: #2e9cea;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius:500px;
+  transform:translateX(30em);
+  position: absolute;
+  top: 7.5em;
+  left: 7.5em;
+}
+
+
+
+
+//moon -----------------------------
+
+#moon_orbit{
+  position: absolute;
+  width: 10em;
+  height:10em;
+  background: none;
+  border: .25em dashed white;
+  border-radius:50%;
+  left: -2.5em;
+  top: -2.5em;
+  box-sizing: border-box;
+}
+
+#moon_wrapper{
+  animation-name: planetspin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width:$earthsize;
+  height:$earthsize;
+  position: absolute;
+  left: 2.25em;
+  top: 2.25em;
+}
+
+#moon{
+  width: 1em;
+  height: 1em;
+  background: #a0a0a0;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius:500px;
+  transform:translateX(5em);
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+
+//

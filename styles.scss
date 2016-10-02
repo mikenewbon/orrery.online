@@ -1,4 +1,7 @@
-@import url(_reset.css);
+@import "CSS/_reset";
+
+$sunsize:20em;
+// NORMAL
 
 body{
   background: #0a1026;
@@ -21,51 +24,20 @@ body{
 }
 
 #sun{
-  width: 20em;
-  height: 20em;
+  width: $sunsize;
+  height: $sunsize;
   background: #ffc902;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#earth_wrapper{
-  animation-name: planetspin;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: -2s;
+  position:absolute;
 }
 
-#earth{
-  width: 5em;
-  height: 5em;
-  background: #2e9cea;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius:500px;
-  transform:translateX(30em);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1{
+  text-align: center;
+  padding: 2em;
 }
 
-#moon_wrapper{
-  animation-name: planetspin;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-#moon{
-  width: 1em;
-  height: 1em;
-  background: #a0a0a0;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius:500px;
-  transform:translateX(5em);
-}
-
+//planets import
+@import "CSS/planets/earth";
+@import "css/planets/mars";

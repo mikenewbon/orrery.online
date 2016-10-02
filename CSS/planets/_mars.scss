@@ -1,0 +1,37 @@
+#mars_orbit{
+  width: 40em;
+  height:40em;
+  position: absolute;
+  background: none;
+  border: .25em dashed white;
+  border-radius:50%;
+  left: -10em;
+  top: -10em;
+  box-sizing: border-box;
+}
+
+#mars_wrapper{
+  animation-name: planetspin;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: -5s;
+  width:$sunsize;
+  height:$sunsize;
+  position: absolute;
+  left:9.75em;
+  top: 9.75em;
+}
+
+#mars{
+  width: 4em;
+  height: 4em;
+  background: #ea8e41;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius:500px;
+  transform:translateX(20em);
+  position: absolute;
+  top: 7.5em;
+  left: 7.5em;
+}
