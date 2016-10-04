@@ -1,9 +1,9 @@
-$planetname:mars;
-$planetorder:4;
-$planetsize:2.5em;
+$planetname:saturn;
+$planetorder:7;
+$planetsize:6.5;
 $orbitsize:$planetorder*10+10;
-$planetcolour: #e48466;
-$orbittime:35s;
+$planetcolour: #e4d987;
+$orbittime:75s;
 
 ##{$planetname}_orbit{
   position: absolute;

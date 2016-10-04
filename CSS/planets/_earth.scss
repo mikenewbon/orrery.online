@@ -1,47 +1,49 @@
-$earthsize:5em;
+$planetname:earth;
+$planetorder:3;
+$planetsize:5em;
+$orbitsize:$planetorder*10+10;
+$planetcolour:#2e9cea;
+$orbittime:30s;
 
-#earth_orbit{
+##{$planetname}_orbit{
   position: absolute;
-  width: 60em;
-  height:60em;
+  width: $orbitsize+em;
+  height: $orbitsize+em;
   background: none;
-  border: .25em dashed white;
+  border: $orbitstroke dashed white;
   border-radius:50%;
-  left: -20em;
-  top: -20em;
+  left: - (($orbitsize /2) - ($sunsize / 2));
+  top: - (($orbitsize /2) - ($sunsize / 2));
   box-sizing: border-box;
 }
 
-#earth_wrapper{
+##{$planetname}_wrapper{
   animation-name: planetspin;
-  animation-duration: 30s;
+  animation-duration: $orbittime;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: -2s;
+  animation-delay: 0s;
   width:$sunsize;
   height:$sunsize;
   position: absolute;
-  left:19.75em;
-  top: 19.75em;
+  left:($orbitsize / 2) - ($sunsize / 2 ) - $orbitstroke;
+  top: ($orbitsize / 2) - ($sunsize / 2 ) - $orbitstroke;
 }
 
-#earth{
-  width: $earthsize;
-  height: $earthsize;
-  background: #2e9cea;
+##{$planetname}{
+  width: $planetsize;
+  height: $planetsize;
+  background: $planetcolour;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius:500px;
-  transform:translateX(30em);
+  transform:translateX(($orbitsize / 2) - $orbitstroke);
   position: absolute;
-  top: 7.5em;
-  left: 7.5em;
+  top: ($sunsize / 2) - ($planetsize / 2);
+  left: ($sunsize / 2) - ($planetsize / 2);
 }
 
-
-
-
-//moon -----------------------------
+/*moon -----------------------------
 
 #moon_orbit{
   position: absolute;
@@ -80,4 +82,4 @@ $earthsize:5em;
   left: 2em;
 }
 
-//
+*/

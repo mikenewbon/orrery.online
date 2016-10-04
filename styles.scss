@@ -1,11 +1,13 @@
 @import "CSS/_reset";
 
-$sunsize:20em;
+$sunsize:10em;
+$orbitstroke: .25em;
 // NORMAL
 
 body{
   background: #0a1026;
   height:100vh;
+  overflow: hidden;
 }
 
 @keyframes planetspin {
@@ -19,7 +21,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 100%;
-  zoom: 1;
+  zoom: .5;
   overflow: hidden;
 }
 
@@ -27,9 +29,7 @@ body{
   width: $sunsize;
   height: $sunsize;
   background: #ffc902;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   position:absolute;
 }
 
@@ -39,5 +39,14 @@ h1{
 }
 
 //planets import
+@import "css/planets/mercury";
+@import "css/planets/venus";
 @import "CSS/planets/earth";
 @import "css/planets/mars";
+@import "css/planets/jupiter";
+@import "css/planets/saturn";
+@import "css/planets/uranus";
+@import "css/planets/neptune";
+
+
+

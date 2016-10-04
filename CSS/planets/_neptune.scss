@@ -1,16 +1,16 @@
-$planetname:mars;
-$planetorder:4;
-$planetsize:2.5em;
+$planetname:neptune;
+$planetorder:9;
+$planetsize:5.2em;
 $orbitsize:$planetorder*10+10;
-$planetcolour: #e48466;
-$orbittime:35s;
+$planetcolour: #3e82e4;
+$orbittime:100s;
 
 ##{$planetname}_orbit{
   position: absolute;
   width: $orbitsize+em;
   height: $orbitsize+em;
   background: none;
-  border: $orbitstroke dashed white;
+  border: .25em dashed white;
   border-radius:50%;
   left: - (($orbitsize /2) - ($sunsize / 2));
   top: - (($orbitsize /2) - ($sunsize / 2));

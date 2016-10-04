@@ -43,7 +43,8 @@ table {
 
 body {
   background: #0a1026;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
 
 @keyframes planetspin {
   0% {
@@ -57,31 +58,99 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  zoom: 1;
+  zoom: .5;
   overflow: hidden; }
 
 #sun {
-  width: 20em;
-  height: 20em;
+  width: 10em;
+  height: 10em;
   background: #ffc902;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   position: absolute; }
 
 h1 {
   text-align: center;
   padding: 2em; }
 
+#mercury_orbit {
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  background: none;
+  border: 0.25em dashed white;
+  border-radius: 50%;
+  left: -5em;
+  top: -5em;
+  box-sizing: border-box; }
+
+#mercury_wrapper {
+  animation-name: planetspin;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 4.75em;
+  top: 4.75em; }
+
+#mercury {
+  width: 3em;
+  height: 3em;
+  background: #676767;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  transform: translateX(9.75em);
+  position: absolute;
+  top: 3.5em;
+  left: 3.5em; }
+
+#venus_orbit {
+  position: absolute;
+  width: 30em;
+  height: 30em;
+  background: none;
+  border: 0.25em dashed white;
+  border-radius: 50%;
+  left: -10em;
+  top: -10em;
+  box-sizing: border-box; }
+
+#venus_wrapper {
+  animation-name: planetspin;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 9.75em;
+  top: 9.75em; }
+
+#venus {
+  width: 4em;
+  height: 4em;
+  background: #dfd091;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  transform: translateX(14.75em);
+  position: absolute;
+  top: 3em;
+  left: 3em; }
+
 #earth_orbit {
   position: absolute;
-  width: 60em;
-  height: 60em;
+  width: 40em;
+  height: 40em;
   background: none;
-  border: .25em dashed white;
+  border: 0.25em dashed white;
   border-radius: 50%;
-  left: -20em;
-  top: -20em;
+  left: -15em;
+  top: -15em;
   box-sizing: border-box; }
 
 #earth_wrapper {
@@ -89,12 +158,12 @@ h1 {
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: -2s;
-  width: 20em;
-  height: 20em;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
   position: absolute;
-  left: 19.75em;
-  top: 19.75em; }
+  left: 14.75em;
+  top: 14.75em; }
 
 #earth {
   width: 5em;
@@ -103,78 +172,224 @@ h1 {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  transform: translateX(30em);
+  transform: translateX(19.75em);
   position: absolute;
-  top: 7.5em;
-  left: 7.5em; }
+  top: 2.5em;
+  left: 2.5em; }
 
-#moon_orbit {
+/*moon -----------------------------
+
+#moon_orbit{
   position: absolute;
   width: 10em;
-  height: 10em;
+  height:10em;
   background: none;
   border: .25em dashed white;
-  border-radius: 50%;
+  border-radius:50%;
   left: -2.5em;
   top: -2.5em;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-#moon_wrapper {
+#moon_wrapper{
   animation-name: planetspin;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  width: 5em;
-  height: 5em;
+  width:$earthsize;
+  height:$earthsize;
   position: absolute;
   left: 2.25em;
-  top: 2.25em; }
+  top: 2.25em;
+}
 
-#moon {
+#moon{
   width: 1em;
   height: 1em;
   background: #a0a0a0;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
-  border-radius: 500px;
-  transform: translateX(5em);
+  border-radius:500px;
+  transform:translateX(5em);
   position: absolute;
   top: 2em;
-  left: 2em; }
+  left: 2em;
+}
 
+*/
 #mars_orbit {
-  width: 40em;
-  height: 40em;
   position: absolute;
+  width: 50em;
+  height: 50em;
   background: none;
-  border: .25em dashed white;
+  border: 0.25em dashed white;
   border-radius: 50%;
-  left: -10em;
-  top: -10em;
+  left: -20em;
+  top: -20em;
   box-sizing: border-box; }
 
 #mars_wrapper {
   animation-name: planetspin;
-  animation-duration: 25s;
+  animation-duration: 35s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: -5s;
-  width: 20em;
-  height: 20em;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
   position: absolute;
-  left: 9.75em;
-  top: 9.75em; }
+  left: 19.75em;
+  top: 19.75em; }
 
 #mars {
-  width: 4em;
-  height: 4em;
-  background: #ea8e41;
+  width: 2.5em;
+  height: 2.5em;
+  background: #e48466;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  transform: translateX(20em);
+  transform: translateX(24.75em);
   position: absolute;
-  top: 7.5em;
-  left: 7.5em; }
+  top: 3.75em;
+  left: 3.75em; }
+
+#jupiter_orbit {
+  position: absolute;
+  width: 70em;
+  height: 70em;
+  background: none;
+  border: 0.25em dashed white;
+  border-radius: 50%;
+  left: -30em;
+  top: -30em;
+  box-sizing: border-box; }
+
+#jupiter_wrapper {
+  animation-name: planetspin;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 29.75em;
+  top: 29.75em; }
+
+#jupiter {
+  width: 8em;
+  height: 8em;
+  background: #e4bdab;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  transform: translateX(34.75em);
+  position: absolute;
+  top: 1em;
+  left: 1em; }
+
+#saturn_orbit {
+  position: absolute;
+  width: 80em;
+  height: 80em;
+  background: none;
+  border: 0.25em dashed white;
+  border-radius: 50%;
+  left: -35em;
+  top: -35em;
+  box-sizing: border-box; }
+
+#saturn_wrapper {
+  animation-name: planetspin;
+  animation-duration: 75s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 34.75em;
+  top: 34.75em; }
+
+#saturn {
+  width: 6.5;
+  height: 6.5;
+  background: #e4d987;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  transform: translateX(39.75em);
+  position: absolute;
+  top: 1.75em;
+  left: 1.75em; }
+
+#uranus_orbit {
+  position: absolute;
+  width: 90em;
+  height: 90em;
+  background: none;
+  border: 0.25em dashed white;
+  border-radius: 50%;
+  left: -40em;
+  top: -40em;
+  box-sizing: border-box; }
+
+#uranus_wrapper {
+  animation-name: planetspin;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 39.75em;
+  top: 39.75em; }
+
+#uranus {
+  width: 5.8em;
+  height: 5.8em;
+  background: #65dbe4;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  transform: translateX(44.75em);
+  position: absolute;
+  top: 2.1em;
+  left: 2.1em; }
+
+#neptune_orbit {
+  position: absolute;
+  width: 100em;
+  height: 100em;
+  background: none;
+  border: .25em dashed white;
+  border-radius: 50%;
+  left: -45em;
+  top: -45em;
+  box-sizing: border-box; }
+
+#neptune_wrapper {
+  animation-name: planetspin;
+  animation-duration: 100s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  left: 44.75em;
+  top: 44.75em; }
+
+#neptune {
+  width: 5.2em;
+  height: 5.2em;
+  background: #3e82e4;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  transform: translateX(49.75em);
+  position: absolute;
+  top: 2.4em;
+  left: 2.4em; }
 
 /*# sourceMappingURL=styles.css.map */
