@@ -99,9 +99,7 @@ h1 {
   width: 3em;
   height: 3em;
   background: #676767;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(9.75em);
   position: absolute;
   top: 3.5em;
@@ -134,9 +132,7 @@ h1 {
   width: 4em;
   height: 4em;
   background: #dfd091;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(14.75em);
   position: absolute;
   top: 3em;
@@ -169,9 +165,7 @@ h1 {
   width: 5em;
   height: 5em;
   background: #2e9cea;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(19.75em);
   position: absolute;
   top: 2.5em;
@@ -244,9 +238,7 @@ h1 {
   width: 2.5em;
   height: 2.5em;
   background: #e48466;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(24.75em);
   position: absolute;
   top: 3.75em;
@@ -279,9 +271,7 @@ h1 {
   width: 8em;
   height: 8em;
   background: #e4bdab;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(34.75em);
   position: absolute;
   top: 1em;
@@ -311,12 +301,10 @@ h1 {
   top: 34.75em; }
 
 #saturn {
-  width: 6.5;
-  height: 6.5;
+  width: 6.5em;
+  height: 6.5em;
   background: #e4d987;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(39.75em);
   position: absolute;
   top: 1.75em;
@@ -349,9 +337,7 @@ h1 {
   width: 5.8em;
   height: 5.8em;
   background: #65dbe4;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(44.75em);
   position: absolute;
   top: 2.1em;
@@ -362,7 +348,7 @@ h1 {
   width: 100em;
   height: 100em;
   background: none;
-  border: .25em dashed white;
+  border: 0.25em dashed white;
   border-radius: 50%;
   left: -45em;
   top: -45em;
@@ -384,9 +370,7 @@ h1 {
   width: 5.2em;
   height: 5.2em;
   background: #3e82e4;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
+  border-radius: 50%;
   transform: translateX(49.75em);
   position: absolute;
   top: 2.4em;

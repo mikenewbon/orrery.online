@@ -1,44 +1,8 @@
 $planetname:saturn;
 $planetorder:7;
-$planetsize:6.5;
+$planetsize:6.5em;
 $orbitsize:$planetorder*10+10;
 $planetcolour: #e4d987;
 $orbittime:75s;
 
-##{$planetname}_orbit{
-  position: absolute;
-  width: $orbitsize+em;
-  height: $orbitsize+em;
-  background: none;
-  border: $orbitstroke dashed white;
-  border-radius:50%;
-  left: - (($orbitsize /2) - ($sunsize / 2));
-  top: - (($orbitsize /2) - ($sunsize / 2));
-  box-sizing: border-box;
-}
-
-##{$planetname}_wrapper{
-  animation-name: planetspin;
-  animation-duration: $orbittime;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 0s;
-  width:$sunsize;
-  height:$sunsize;
-  position: absolute;
-  left:($orbitsize / 2) - ($sunsize / 2 ) - $orbitstroke;
-  top: ($orbitsize / 2) - ($sunsize / 2 ) - $orbitstroke;
-}
-
-##{$planetname}{
-  width: $planetsize;
-  height: $planetsize;
-  background: $planetcolour;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius:500px;
-  transform:translateX(($orbitsize / 2) - $orbitstroke);
-  position: absolute;
-  top: ($sunsize / 2) - ($planetsize / 2);
-  left: ($sunsize / 2) - ($planetsize / 2);
-}
+@import "planetstyles";
