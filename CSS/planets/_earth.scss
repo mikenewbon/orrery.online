@@ -1,49 +1,15 @@
 $planetname:earth;
 $planetorder:3;
 $planetsize:5em;
-$orbitsize:$planetorder*10+10;
 $planetcolour:#2e9cea;
 $orbittime:30s;
 
 @import "planetstyles";
 
-/*moon -----------------------------
+$moonname:luna;
+$moonorder: 1;
+$moonsize: 1em;
+$mooncolour: #838383;
+$moonorbittime:5s;
 
-#moon_orbit{
-  position: absolute;
-  width: 10em;
-  height:10em;
-  background: none;
-  border: .25em dashed white;
-  border-radius:50%;
-  left: -2.5em;
-  top: -2.5em;
-  box-sizing: border-box;
-}
-
-#moon_wrapper{
-  animation-name: planetspin;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  width:$earthsize;
-  height:$earthsize;
-  position: absolute;
-  left: 2.25em;
-  top: 2.25em;
-}
-
-#moon{
-  width: 1em;
-  height: 1em;
-  background: #a0a0a0;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius:500px;
-  transform:translateX(5em);
-  position: absolute;
-  top: 2em;
-  left: 2em;
-}
-
-*/
+@import "moonstyles";

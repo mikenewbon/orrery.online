@@ -44,7 +44,8 @@ table {
 body {
   background: #0a1026;
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: sans-serif; }
 
 @keyframes planetspin {
   0% {
@@ -70,17 +71,22 @@ body {
 
 h1 {
   text-align: center;
-  padding: 2em; }
+  padding: 1em;
+  color: white;
+  position: absolute;
+  left: 50%;
+  font-size: 2em;
+  transform: translateX(-50%); }
 
 #mercury_orbit {
   position: absolute;
-  width: 20em;
-  height: 20em;
+  width: 30em;
+  height: 30em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -5em;
-  top: -5em;
+  left: -10em;
+  top: -10em;
   box-sizing: border-box; }
 
 #mercury_wrapper {
@@ -92,28 +98,35 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 4.75em;
-  top: 4.75em; }
+  left: 9.75em;
+  top: 9.75em; }
 
 #mercury {
   width: 3em;
   height: 3em;
   background: #676767;
   border-radius: 50%;
-  transform: translateX(9.75em);
+  transform: translateX(14.75em) rotate(90deg);
   position: absolute;
   top: 3.5em;
   left: 3.5em; }
+  #mercury:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
 #venus_orbit {
   position: absolute;
-  width: 30em;
-  height: 30em;
+  width: 50em;
+  height: 50em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -10em;
-  top: -10em;
+  left: -20em;
+  top: -20em;
   box-sizing: border-box; }
 
 #venus_wrapper {
@@ -125,28 +138,35 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 9.75em;
-  top: 9.75em; }
+  left: 19.75em;
+  top: 19.75em; }
 
 #venus {
   width: 4em;
   height: 4em;
   background: #dfd091;
   border-radius: 50%;
-  transform: translateX(14.75em);
+  transform: translateX(24.75em) rotate(90deg);
   position: absolute;
   top: 3em;
   left: 3em; }
+  #venus:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
 #earth_orbit {
   position: absolute;
-  width: 40em;
-  height: 40em;
+  width: 70em;
+  height: 70em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -15em;
-  top: -15em;
+  left: -30em;
+  top: -30em;
   box-sizing: border-box; }
 
 #earth_wrapper {
@@ -158,68 +178,68 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 14.75em;
-  top: 14.75em; }
+  left: 29.75em;
+  top: 29.75em; }
 
 #earth {
   width: 5em;
   height: 5em;
   background: #2e9cea;
   border-radius: 50%;
-  transform: translateX(19.75em);
+  transform: translateX(34.75em) rotate(90deg);
   position: absolute;
   top: 2.5em;
   left: 2.5em; }
+  #earth:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
-/*moon -----------------------------
-
-#moon_orbit{
+#luna_orbit {
   position: absolute;
-  width: 10em;
-  height:10em;
+  width: 11em;
+  height: 11em;
   background: none;
-  border: .25em dashed white;
-  border-radius:50%;
-  left: -2.5em;
-  top: -2.5em;
-  box-sizing: border-box;
-}
+  border: 0.25em dashed white;
+  border-radius: 50%;
+  left: -3em;
+  top: -3em;
+  box-sizing: border-box; }
 
-#moon_wrapper{
+#luna_wrapper {
   animation-name: planetspin;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  width:$earthsize;
-  height:$earthsize;
+  animation-delay: 0s;
+  width: 5em;
+  height: 5em;
   position: absolute;
-  left: 2.25em;
-  top: 2.25em;
-}
+  left: 2.75em;
+  top: 2.75em; }
 
-#moon{
+#luna {
   width: 1em;
   height: 1em;
-  background: #a0a0a0;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius:500px;
-  transform:translateX(5em);
+  background: #838383;
+  border-radius: 50%;
+  transform: translateX(5.25em);
   position: absolute;
   top: 2em;
-  left: 2em;
-}
+  left: 2em; }
 
-*/
 #mars_orbit {
   position: absolute;
-  width: 50em;
-  height: 50em;
+  width: 90em;
+  height: 90em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -20em;
-  top: -20em;
+  left: -40em;
+  top: -40em;
   box-sizing: border-box; }
 
 #mars_wrapper {
@@ -231,28 +251,35 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 19.75em;
-  top: 19.75em; }
+  left: 39.75em;
+  top: 39.75em; }
 
 #mars {
   width: 2.5em;
   height: 2.5em;
   background: #e48466;
   border-radius: 50%;
-  transform: translateX(24.75em);
+  transform: translateX(44.75em) rotate(90deg);
   position: absolute;
   top: 3.75em;
   left: 3.75em; }
+  #mars:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
 #jupiter_orbit {
   position: absolute;
-  width: 70em;
-  height: 70em;
+  width: 130em;
+  height: 130em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -30em;
-  top: -30em;
+  left: -60em;
+  top: -60em;
   box-sizing: border-box; }
 
 #jupiter_wrapper {
@@ -264,28 +291,35 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 29.75em;
-  top: 29.75em; }
+  left: 59.75em;
+  top: 59.75em; }
 
 #jupiter {
   width: 8em;
   height: 8em;
   background: #e4bdab;
   border-radius: 50%;
-  transform: translateX(34.75em);
+  transform: translateX(64.75em) rotate(90deg);
   position: absolute;
   top: 1em;
   left: 1em; }
+  #jupiter:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
 #saturn_orbit {
   position: absolute;
-  width: 80em;
-  height: 80em;
+  width: 150em;
+  height: 150em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -35em;
-  top: -35em;
+  left: -70em;
+  top: -70em;
   box-sizing: border-box; }
 
 #saturn_wrapper {
@@ -297,28 +331,35 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 34.75em;
-  top: 34.75em; }
+  left: 69.75em;
+  top: 69.75em; }
 
 #saturn {
   width: 6.5em;
   height: 6.5em;
   background: #e4d987;
   border-radius: 50%;
-  transform: translateX(39.75em);
+  transform: translateX(74.75em) rotate(90deg);
   position: absolute;
   top: 1.75em;
   left: 1.75em; }
+  #saturn:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
 #uranus_orbit {
   position: absolute;
-  width: 90em;
-  height: 90em;
+  width: 170em;
+  height: 170em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -40em;
-  top: -40em;
+  left: -80em;
+  top: -80em;
   box-sizing: border-box; }
 
 #uranus_wrapper {
@@ -330,28 +371,35 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 39.75em;
-  top: 39.75em; }
+  left: 79.75em;
+  top: 79.75em; }
 
 #uranus {
   width: 5.8em;
   height: 5.8em;
   background: #65dbe4;
   border-radius: 50%;
-  transform: translateX(44.75em);
+  transform: translateX(84.75em) rotate(90deg);
   position: absolute;
   top: 2.1em;
   left: 2.1em; }
+  #uranus:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
 #neptune_orbit {
   position: absolute;
-  width: 100em;
-  height: 100em;
+  width: 190em;
+  height: 190em;
   background: none;
   border: 0.25em dashed white;
   border-radius: 50%;
-  left: -45em;
-  top: -45em;
+  left: -90em;
+  top: -90em;
   box-sizing: border-box; }
 
 #neptune_wrapper {
@@ -363,17 +411,24 @@ h1 {
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 44.75em;
-  top: 44.75em; }
+  left: 89.75em;
+  top: 89.75em; }
 
 #neptune {
   width: 5.2em;
   height: 5.2em;
   background: #3e82e4;
   border-radius: 50%;
-  transform: translateX(49.75em);
+  transform: translateX(94.75em) rotate(90deg);
   position: absolute;
   top: 2.4em;
   left: 2.4em; }
+  #neptune:after {
+    content: close-quote;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 500px 500px 0 0; }
 
 /*# sourceMappingURL=styles.css.map */

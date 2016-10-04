@@ -8,6 +8,7 @@ body{
   background: #0a1026;
   height:100vh;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 @keyframes planetspin {
@@ -35,7 +36,13 @@ body{
 
 h1{
   text-align: center;
-  padding: 2em;
+  padding: 1em;
+  color: white;
+  position: absolute;
+  left: 50%;
+  font-size: 2em;
+  transform: translateX(-50%);
+
 }
 
 //planets import
