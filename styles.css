@@ -112,184 +112,165 @@ p {
   border-radius: 50%; }
 
 .star:nth-child(1) {
-  left: 14vw;
-  top: 43vh; }
+  left: 2vw;
+  top: 84vh; }
 
 .star:nth-child(2) {
-  left: 38vw;
-  top: 60vh; }
+  left: 62vw;
+  top: 39vh; }
 
 .star:nth-child(3) {
-  left: 60vw;
-  top: 11vh; }
+  left: 92vw;
+  top: 55vh; }
 
 .star:nth-child(4) {
-  left: 58vw;
-  top: 93vh; }
+  left: 54vw;
+  top: 14vh; }
 
 .star:nth-child(5) {
-  left: 74vw;
-  top: 64vh; }
+  left: 16vw;
+  top: 74vh; }
 
 .star:nth-child(6) {
-  left: 34vw;
-  top: 21vh; }
-
-.star:nth-child(7) {
-  left: 29vw;
-  top: 32vh; }
-
-.star:nth-child(8) {
-  left: 75vw;
-  top: 52vh; }
-
-.star:nth-child(9) {
-  left: 96vw;
-  top: 86vh; }
-
-.star:nth-child(10) {
-  left: 36vw;
+  left: 92vw;
   top: 22vh; }
 
+.star:nth-child(7) {
+  left: 59vw;
+  top: 90vh; }
+
+.star:nth-child(8) {
+  left: 86vw;
+  top: 72vh; }
+
+.star:nth-child(9) {
+  left: 57vw;
+  top: 99vh; }
+
+.star:nth-child(10) {
+  left: 15vw;
+  top: 73vh; }
+
 .star:nth-child(11) {
-  left: 34vw;
-  top: 2vh; }
+  left: 12vw;
+  top: 75vh; }
 
 .star:nth-child(12) {
-  left: 82vw;
-  top: 79vh; }
+  left: 44vw;
+  top: 51vh; }
 
 .star:nth-child(13) {
-  left: 70vw;
-  top: 23vh; }
-
-.star:nth-child(14) {
-  left: 82vw;
+  left: 32vw;
   top: 11vh; }
 
+.star:nth-child(14) {
+  left: 11vw;
+  top: 23vh; }
+
 .star:nth-child(15) {
-  left: 21vw;
-  top: 17vh; }
-
-.star:nth-child(16) {
-  left: 98vw;
-  top: 45vh; }
-
-.star:nth-child(17) {
-  left: 88vw;
-  top: 18vh; }
-
-.star:nth-child(18) {
-  left: 77vw;
-  top: 8vh; }
-
-.star:nth-child(19) {
-  left: 50vw;
-  top: 43vh; }
-
-.star:nth-child(20) {
-  left: 73vw;
-  top: 87vh; }
-
-.star:nth-child(21) {
-  left: 25vw;
-  top: 25vh; }
-
-.star:nth-child(22) {
-  left: 5vw;
-  top: 40vh; }
-
-.star:nth-child(23) {
-  left: 92vw;
-  top: 62vh; }
-
-.star:nth-child(24) {
-  left: 47vw;
-  top: 87vh; }
-
-.star:nth-child(25) {
-  left: 52vw;
-  top: 25vh; }
-
-.star:nth-child(26) {
-  left: 82vw;
-  top: 25vh; }
-
-.star:nth-child(27) {
-  left: 79vw;
-  top: 40vh; }
-
-.star:nth-child(28) {
-  left: 15vw;
-  top: 98vh; }
-
-.star:nth-child(29) {
-  left: 69vw;
-  top: 62vh; }
-
-.star:nth-child(30) {
-  left: 69vw;
-  top: 17vh; }
-
-.star:nth-child(31) {
-  left: 85vw;
-  top: 54vh; }
-
-.star:nth-child(32) {
-  left: 75vw;
-  top: 34vh; }
-
-.star:nth-child(33) {
-  left: 23vw;
+  left: 35vw;
   top: 95vh; }
 
+.star:nth-child(16) {
+  left: 68vw;
+  top: 16vh; }
+
+.star:nth-child(17) {
+  left: 50vw;
+  top: 39vh; }
+
+.star:nth-child(18) {
+  left: 27vw;
+  top: 2vh; }
+
+.star:nth-child(19) {
+  left: 21vw;
+  top: 64vh; }
+
+.star:nth-child(20) {
+  left: 58vw;
+  top: 35vh; }
+
+.star:nth-child(21) {
+  left: 98vw;
+  top: 42vh; }
+
+.star:nth-child(22) {
+  left: 9vw;
+  top: 65vh; }
+
+.star:nth-child(23) {
+  left: 61vw;
+  top: 27vh; }
+
+.star:nth-child(24) {
+  left: 59vw;
+  top: 89vh; }
+
+.star:nth-child(25) {
+  left: 29vw;
+  top: 41vh; }
+
+.star:nth-child(26) {
+  left: 9vw;
+  top: 52vh; }
+
+.star:nth-child(27) {
+  left: 41vw;
+  top: 16vh; }
+
+.star:nth-child(28) {
+  left: 84vw;
+  top: 87vh; }
+
+.star:nth-child(29) {
+  left: 38vw;
+  top: 58vh; }
+
+.star:nth-child(30) {
+  left: 21vw;
+  top: 14vh; }
+
+.star:nth-child(31) {
+  left: 84vw;
+  top: 74vh; }
+
+.star:nth-child(32) {
+  left: 14vw;
+  top: 62vh; }
+
+.star:nth-child(33) {
+  left: 27vw;
+  top: 57vh; }
+
 .star:nth-child(34) {
-  left: 64vw;
-  top: 67vh; }
+  left: 34vw;
+  top: 17vh; }
 
 .star:nth-child(35) {
-  left: 10vw;
-  top: 83vh; }
+  left: 57vw;
+  top: 1vh; }
 
 .star:nth-child(36) {
-  left: 47vw;
-  top: 81vh; }
+  left: 21vw;
+  top: 99vh; }
 
 .star:nth-child(37) {
-  left: 30vw;
-  top: 61vh; }
+  left: 45vw;
+  top: 70vh; }
 
 .star:nth-child(38) {
-  left: 95vw;
-  top: 83vh; }
+  left: 21vw;
+  top: 80vh; }
 
 .star:nth-child(39) {
-  left: 86vw;
-  top: 44vh; }
+  left: 26vw;
+  top: 65vh; }
 
 .star:nth-child(40) {
-  left: 72vw;
-  top: 97vh; }
+  left: 49vw;
+  top: 31vh; }
 
-/*
-.column {
-  height: 100vh;
-  display: inline-block;
-  &.right{
-    background: black;
-    width:0;
-    &.open{
-      width:20vw;
-    }
-  }
-  &.left {
-    width: 100vw;
-    &.open {
-      width: 80vw;
-    }
-  }
-}
-*/
 #mercury_orbit {
   position: absolute;
   width: 30em;
@@ -409,6 +390,110 @@ p {
     background: rgba(0, 0, 0, 0.2);
     position: absolute;
     border-radius: 500px 500px 0 0; }
+
+@keyframes lineanim {
+  from {
+    transform: translateX(3em); }
+  to {
+    transform: translateX(-5em); } }
+@keyframes counterspin {
+  from {
+    transform: translate(0) rotate(270deg); }
+  to {
+    transform: translate(0) rotate(-90deg); } }
+.clouds {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  animation-name: counterspin;
+  animation-duration: 365.2s;
+  animation-delay: -918955s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.cloud {
+  position: relative;
+  height: .75em;
+  border-radius: 1em;
+  background: #fff;
+  animation-name: lineanim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99); }
+  .cloud.c1 {
+    width: 3em;
+    top: 10%;
+    left: 40%;
+    animation-delay: -2.5s; }
+  .cloud.c2 {
+    width: 2em;
+    top: 13%;
+    left: 41%;
+    animation-delay: -6.5s; }
+  .cloud.c3 {
+    width: 1em;
+    top: 15%;
+    left: 64%;
+    animation-delay: -9.8s; }
+  .cloud.c4 {
+    width: 2em;
+    top: 8%;
+    left: 50%;
+    animation-delay: -9.5s; }
+  .cloud.c5 {
+    width: 2em;
+    top: 20%;
+    left: 49%;
+    animation-delay: -2.5s; }
+
+.islands {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  animation-name: counterspin;
+  animation-duration: 365.2s;
+  animation-delay: -918955s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.island {
+  position: relative;
+  height: 1.25em;
+  border-radius: 1em;
+  background: #6ece4f;
+  animation-name: lineanim;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+  .island.i1 {
+    width: 3em;
+    top: 10%;
+    left: 40%;
+    animation-delay: -2.5s; }
+  .island.i2 {
+    width: 2em;
+    top: 13%;
+    left: 41%;
+    animation-delay: -6.5s; }
+  .island.i3 {
+    width: 1em;
+    top: 15%;
+    left: 64%;
+    animation-delay: -9.8s; }
+  .island.i4 {
+    width: 2em;
+    top: 20%;
+    left: 50%;
+    animation-delay: -9.5s; }
+  .island.i5 {
+    width: 2em;
+    top: 40%;
+    left: 49%;
+    animation-delay: -2.5s; }
 
 #luna_orbit {
   position: absolute;
@@ -642,53 +727,5 @@ p {
     background: rgba(0, 0, 0, 0.2);
     position: absolute;
     border-radius: 500px 500px 0 0; }
-
-@keyframes lineanim {
-  from {
-    transform: translateX(200%); }
-  to {
-    transform: translateX(-200%); } }
-.clouds {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  overflow: hidden;
-  position: absolute;
-  transform: translate(0) rotate(-90deg); }
-
-.cloud {
-  position: relative;
-  height: 1em;
-  border-radius: 1em;
-  background: rgba(255, 255, 255, 0.25);
-  animation-name: lineanim;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99); }
-  .cloud.c1 {
-    width: 3em;
-    top: 10%;
-    left: 40%;
-    animation-delay: -2.5s; }
-  .cloud.c2 {
-    width: 2em;
-    top: 80%;
-    left: -30%;
-    animation-delay: -2.5s; }
-  .cloud.c3 {
-    width: 1em;
-    top: 50%;
-    left: 90%;
-    animation-delay: -2s; }
-  .cloud.c4 {
-    width: 2em;
-    top: 30%;
-    left: 50%;
-    animation-delay: -1.5s; }
-  .cloud.c5 {
-    width: .5em;
-    top: 20%;
-    left: 0%;
-    animation-delay: -3.5s; }
 
 /*# sourceMappingURL=styles.css.map */

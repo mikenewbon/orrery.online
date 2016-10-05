@@ -88,26 +88,7 @@ p{
   .star:nth-child(#{$i}){ left:random(100)+vw; top:random(100)+vh}
 }
 
-//columns
-/*
-.column {
-  height: 100vh;
-  display: inline-block;
-  &.right{
-    background: black;
-    width:0;
-    &.open{
-      width:20vw;
-    }
-  }
-  &.left {
-    width: 100vw;
-    &.open {
-      width: 80vw;
-    }
-  }
-}
-*/
+
 //planets import
 @import "css/planets/mercury";
 @import "css/planets/venus";
@@ -117,4 +98,3 @@ p{
 @import "css/planets/saturn";
 @import "css/planets/uranus";
 @import "css/planets/neptune";
-@import "css/surfaceanimations/earth-anim";

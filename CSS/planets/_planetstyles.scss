@@ -1,4 +1,5 @@
 $orbitsize:$planetorder*20+10;
+$orbit-delay:-918955s;
 
 ##{$planetname}_orbit{
   position: absolute;
@@ -17,7 +18,7 @@ $orbitsize:$planetorder*20+10;
   animation-duration: $orbittime;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: -918955s;
+  animation-delay: $orbit-delay;
   width:$sunsize;
   height:$sunsize;
   position: absolute;
