@@ -41,11 +41,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html {
+  font-size: 1em; }
+
 body {
   background: #0a1026;
   height: 100vh;
   overflow: hidden;
-  font-family: sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 @keyframes planetspin {
   0% {
@@ -59,8 +62,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  zoom: .5;
-  overflow: hidden; }
+  position: relative;
+  left: 0;
+  top: 0;
+  font-size: .5em;
+  -webkit-transition: font-size 2.5s;
+  -moz-transition: font-size 2.5s;
+  -ms-transition: font-size 2.5s;
+  -o-transition: font-size 2.5s;
+  transition: font-size 2.5s; }
 
 #sun {
   width: 10em;
@@ -71,19 +81,221 @@ body {
 
 h1 {
   text-align: center;
-  padding: 1em;
+  color: white;
+  position: absolute;
+  top: .5em;
+  left: 50%;
+  font-size: 2em;
+  transform: translateX(-50%);
+  font-weight: bold;
+  text-transform: uppercase; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
   color: white;
   position: absolute;
   left: 50%;
-  font-size: 2em;
+  top: 3em;
+  font-size: 1em;
   transform: translateX(-50%); }
 
+#stars {
+  font-size: .5em; }
+
+.star {
+  background: rgba(255, 255, 255, 0.2);
+  width: 1em;
+  height: 1em;
+  display: block;
+  position: absolute;
+  border-radius: 50%; }
+
+.star:nth-child(1) {
+  left: 14vw;
+  top: 43vh; }
+
+.star:nth-child(2) {
+  left: 38vw;
+  top: 60vh; }
+
+.star:nth-child(3) {
+  left: 60vw;
+  top: 11vh; }
+
+.star:nth-child(4) {
+  left: 58vw;
+  top: 93vh; }
+
+.star:nth-child(5) {
+  left: 74vw;
+  top: 64vh; }
+
+.star:nth-child(6) {
+  left: 34vw;
+  top: 21vh; }
+
+.star:nth-child(7) {
+  left: 29vw;
+  top: 32vh; }
+
+.star:nth-child(8) {
+  left: 75vw;
+  top: 52vh; }
+
+.star:nth-child(9) {
+  left: 96vw;
+  top: 86vh; }
+
+.star:nth-child(10) {
+  left: 36vw;
+  top: 22vh; }
+
+.star:nth-child(11) {
+  left: 34vw;
+  top: 2vh; }
+
+.star:nth-child(12) {
+  left: 82vw;
+  top: 79vh; }
+
+.star:nth-child(13) {
+  left: 70vw;
+  top: 23vh; }
+
+.star:nth-child(14) {
+  left: 82vw;
+  top: 11vh; }
+
+.star:nth-child(15) {
+  left: 21vw;
+  top: 17vh; }
+
+.star:nth-child(16) {
+  left: 98vw;
+  top: 45vh; }
+
+.star:nth-child(17) {
+  left: 88vw;
+  top: 18vh; }
+
+.star:nth-child(18) {
+  left: 77vw;
+  top: 8vh; }
+
+.star:nth-child(19) {
+  left: 50vw;
+  top: 43vh; }
+
+.star:nth-child(20) {
+  left: 73vw;
+  top: 87vh; }
+
+.star:nth-child(21) {
+  left: 25vw;
+  top: 25vh; }
+
+.star:nth-child(22) {
+  left: 5vw;
+  top: 40vh; }
+
+.star:nth-child(23) {
+  left: 92vw;
+  top: 62vh; }
+
+.star:nth-child(24) {
+  left: 47vw;
+  top: 87vh; }
+
+.star:nth-child(25) {
+  left: 52vw;
+  top: 25vh; }
+
+.star:nth-child(26) {
+  left: 82vw;
+  top: 25vh; }
+
+.star:nth-child(27) {
+  left: 79vw;
+  top: 40vh; }
+
+.star:nth-child(28) {
+  left: 15vw;
+  top: 98vh; }
+
+.star:nth-child(29) {
+  left: 69vw;
+  top: 62vh; }
+
+.star:nth-child(30) {
+  left: 69vw;
+  top: 17vh; }
+
+.star:nth-child(31) {
+  left: 85vw;
+  top: 54vh; }
+
+.star:nth-child(32) {
+  left: 75vw;
+  top: 34vh; }
+
+.star:nth-child(33) {
+  left: 23vw;
+  top: 95vh; }
+
+.star:nth-child(34) {
+  left: 64vw;
+  top: 67vh; }
+
+.star:nth-child(35) {
+  left: 10vw;
+  top: 83vh; }
+
+.star:nth-child(36) {
+  left: 47vw;
+  top: 81vh; }
+
+.star:nth-child(37) {
+  left: 30vw;
+  top: 61vh; }
+
+.star:nth-child(38) {
+  left: 95vw;
+  top: 83vh; }
+
+.star:nth-child(39) {
+  left: 86vw;
+  top: 44vh; }
+
+.star:nth-child(40) {
+  left: 72vw;
+  top: 97vh; }
+
+/*
+.column {
+  height: 100vh;
+  display: inline-block;
+  &.right{
+    background: black;
+    width:0;
+    &.open{
+      width:20vw;
+    }
+  }
+  &.left {
+    width: 100vw;
+    &.open {
+      width: 80vw;
+    }
+  }
+}
+*/
 #mercury_orbit {
   position: absolute;
   width: 30em;
   height: 30em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -10em;
   top: -10em;
@@ -91,22 +303,22 @@ h1 {
 
 #mercury_wrapper {
   animation-name: planetspin;
-  animation-duration: 10s;
+  animation-duration: 88s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 9.75em;
-  top: 9.75em; }
+  left: 9.9em;
+  top: 9.9em; }
 
 #mercury {
   width: 3em;
   height: 3em;
   background: #676767;
   border-radius: 50%;
-  transform: translateX(14.75em) rotate(90deg);
+  transform: translateX(14.9em) rotate(90deg);
   position: absolute;
   top: 3.5em;
   left: 3.5em; }
@@ -123,7 +335,7 @@ h1 {
   width: 50em;
   height: 50em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -20em;
   top: -20em;
@@ -131,22 +343,22 @@ h1 {
 
 #venus_wrapper {
   animation-name: planetspin;
-  animation-duration: 20s;
+  animation-duration: 224.7s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 19.75em;
-  top: 19.75em; }
+  left: 19.9em;
+  top: 19.9em; }
 
 #venus {
   width: 4em;
   height: 4em;
   background: #dfd091;
   border-radius: 50%;
-  transform: translateX(24.75em) rotate(90deg);
+  transform: translateX(24.9em) rotate(90deg);
   position: absolute;
   top: 3em;
   left: 3em; }
@@ -163,7 +375,7 @@ h1 {
   width: 70em;
   height: 70em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -30em;
   top: -30em;
@@ -171,22 +383,22 @@ h1 {
 
 #earth_wrapper {
   animation-name: planetspin;
-  animation-duration: 30s;
+  animation-duration: 365.2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 29.75em;
-  top: 29.75em; }
+  left: 29.9em;
+  top: 29.9em; }
 
 #earth {
   width: 5em;
   height: 5em;
   background: #2e9cea;
   border-radius: 50%;
-  transform: translateX(34.75em) rotate(90deg);
+  transform: translateX(34.9em) rotate(90deg);
   position: absolute;
   top: 2.5em;
   left: 2.5em; }
@@ -203,7 +415,7 @@ h1 {
   width: 11em;
   height: 11em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -3em;
   top: -3em;
@@ -211,22 +423,22 @@ h1 {
 
 #luna_wrapper {
   animation-name: planetspin;
-  animation-duration: 5s;
+  animation-duration: 27.3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-delay: 0s;
   width: 5em;
   height: 5em;
   position: absolute;
-  left: 2.75em;
-  top: 2.75em; }
+  left: 2.9em;
+  top: 2.9em; }
 
 #luna {
   width: 1em;
   height: 1em;
   background: #838383;
   border-radius: 50%;
-  transform: translateX(5.25em);
+  transform: translateX(5.4em);
   position: absolute;
   top: 2em;
   left: 2em; }
@@ -236,7 +448,7 @@ h1 {
   width: 90em;
   height: 90em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -40em;
   top: -40em;
@@ -244,22 +456,22 @@ h1 {
 
 #mars_wrapper {
   animation-name: planetspin;
-  animation-duration: 35s;
+  animation-duration: 687s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 39.75em;
-  top: 39.75em; }
+  left: 39.9em;
+  top: 39.9em; }
 
 #mars {
   width: 2.5em;
   height: 2.5em;
   background: #e48466;
   border-radius: 50%;
-  transform: translateX(44.75em) rotate(90deg);
+  transform: translateX(44.9em) rotate(90deg);
   position: absolute;
   top: 3.75em;
   left: 3.75em; }
@@ -276,7 +488,7 @@ h1 {
   width: 130em;
   height: 130em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -60em;
   top: -60em;
@@ -284,22 +496,22 @@ h1 {
 
 #jupiter_wrapper {
   animation-name: planetspin;
-  animation-duration: 60s;
+  animation-duration: 4331s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 59.75em;
-  top: 59.75em; }
+  left: 59.9em;
+  top: 59.9em; }
 
 #jupiter {
   width: 8em;
   height: 8em;
   background: #e4bdab;
   border-radius: 50%;
-  transform: translateX(64.75em) rotate(90deg);
+  transform: translateX(64.9em) rotate(90deg);
   position: absolute;
   top: 1em;
   left: 1em; }
@@ -316,7 +528,7 @@ h1 {
   width: 150em;
   height: 150em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -70em;
   top: -70em;
@@ -324,22 +536,22 @@ h1 {
 
 #saturn_wrapper {
   animation-name: planetspin;
-  animation-duration: 75s;
+  animation-duration: 10747s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 69.75em;
-  top: 69.75em; }
+  left: 69.9em;
+  top: 69.9em; }
 
 #saturn {
   width: 6.5em;
   height: 6.5em;
   background: #e4d987;
   border-radius: 50%;
-  transform: translateX(74.75em) rotate(90deg);
+  transform: translateX(74.9em) rotate(90deg);
   position: absolute;
   top: 1.75em;
   left: 1.75em; }
@@ -356,7 +568,7 @@ h1 {
   width: 170em;
   height: 170em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -80em;
   top: -80em;
@@ -364,22 +576,22 @@ h1 {
 
 #uranus_wrapper {
   animation-name: planetspin;
-  animation-duration: 90s;
+  animation-duration: 30589s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 79.75em;
-  top: 79.75em; }
+  left: 79.9em;
+  top: 79.9em; }
 
 #uranus {
   width: 5.8em;
   height: 5.8em;
   background: #65dbe4;
   border-radius: 50%;
-  transform: translateX(84.75em) rotate(90deg);
+  transform: translateX(84.9em) rotate(90deg);
   position: absolute;
   top: 2.1em;
   left: 2.1em; }
@@ -396,7 +608,7 @@ h1 {
   width: 190em;
   height: 190em;
   background: none;
-  border: 0.25em dashed white;
+  border: 0.1em solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   left: -90em;
   top: -90em;
@@ -404,22 +616,22 @@ h1 {
 
 #neptune_wrapper {
   animation-name: planetspin;
-  animation-duration: 100s;
+  animation-duration: 59800s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: -918955s;
   width: 10em;
   height: 10em;
   position: absolute;
-  left: 89.75em;
-  top: 89.75em; }
+  left: 89.9em;
+  top: 89.9em; }
 
 #neptune {
   width: 5.2em;
   height: 5.2em;
   background: #3e82e4;
   border-radius: 50%;
-  transform: translateX(94.75em) rotate(90deg);
+  transform: translateX(94.9em) rotate(90deg);
   position: absolute;
   top: 2.4em;
   left: 2.4em; }
@@ -430,5 +642,53 @@ h1 {
     background: rgba(0, 0, 0, 0.2);
     position: absolute;
     border-radius: 500px 500px 0 0; }
+
+@keyframes lineanim {
+  from {
+    transform: translateX(200%); }
+  to {
+    transform: translateX(-200%); } }
+.clouds {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translate(0) rotate(-90deg); }
+
+.cloud {
+  position: relative;
+  height: 1em;
+  border-radius: 1em;
+  background: rgba(255, 255, 255, 0.25);
+  animation-name: lineanim;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99); }
+  .cloud.c1 {
+    width: 3em;
+    top: 10%;
+    left: 40%;
+    animation-delay: -2.5s; }
+  .cloud.c2 {
+    width: 2em;
+    top: 80%;
+    left: -30%;
+    animation-delay: -2.5s; }
+  .cloud.c3 {
+    width: 1em;
+    top: 50%;
+    left: 90%;
+    animation-delay: -2s; }
+  .cloud.c4 {
+    width: 2em;
+    top: 30%;
+    left: 50%;
+    animation-delay: -1.5s; }
+  .cloud.c5 {
+    width: .5em;
+    top: 20%;
+    left: 0%;
+    animation-delay: -3.5s; }
 
 /*# sourceMappingURL=styles.css.map */

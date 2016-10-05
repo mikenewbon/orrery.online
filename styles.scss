@@ -1,14 +1,21 @@
 @import "CSS/_reset";
 
 $sunsize:10em;
-$orbitstroke: .25em;
+$orbitstroke: .1em;
 // NORMAL
+
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+
+html{
+  font-size: 1em;
+}
 
 body{
   background: #0a1026;
   height:100vh;
   overflow: hidden;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes planetspin {
@@ -22,8 +29,15 @@ body{
   justify-content: center;
   align-items: center;
   height: 100%;
-  zoom: .5;
-  overflow: hidden;
+  position: relative;
+  left:0;
+  top:0;
+  font-size:.5em;
+  -webkit-transition: font-size 2.5s;
+  -moz-transition: font-size 2.5s;
+  -ms-transition: font-size 2.5s;
+  -o-transition: font-size 2.5s;
+  transition: font-size 2.5s;
 }
 
 #sun{
@@ -36,15 +50,64 @@ body{
 
 h1{
   text-align: center;
-  padding: 1em;
   color: white;
   position: absolute;
+  top:.5em;
   left: 50%;
   font-size: 2em;
   transform: translateX(-50%);
-
+  font-weight:bold;
+  text-transform: uppercase;
 }
 
+p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 3em;
+  font-size: 1em;
+  transform: translateX(-50%);
+}
+
+#stars{
+  font-size: .5em;
+}
+
+.star{
+  background: rgba(255,255,255,.2);
+  width: 1em;
+  height: 1em;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+
+@for $i from 1 through 40{
+  .star:nth-child(#{$i}){ left:random(100)+vw; top:random(100)+vh}
+}
+
+//columns
+/*
+.column {
+  height: 100vh;
+  display: inline-block;
+  &.right{
+    background: black;
+    width:0;
+    &.open{
+      width:20vw;
+    }
+  }
+  &.left {
+    width: 100vw;
+    &.open {
+      width: 80vw;
+    }
+  }
+}
+*/
 //planets import
 @import "css/planets/mercury";
 @import "css/planets/venus";
@@ -54,3 +117,4 @@ h1{
 @import "css/planets/saturn";
 @import "css/planets/uranus";
 @import "css/planets/neptune";
+@import "css/surfaceanimations/earth-anim";

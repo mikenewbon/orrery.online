@@ -1,0 +1,60 @@
+@keyframes lineanim {
+  from {
+    transform:translateX(200%);
+  }
+  to {
+    transform:translateX(-200%);
+  }
+}
+
+.clouds{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translate(0) rotate(-90deg);
+}
+
+.cloud{
+  position: relative;
+  height:1em;
+  border-radius:1em;
+  background:rgba(255, 255, 255, 0.25);
+  animation-name: lineanim;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99);
+  &.c1{
+    width: 3em;
+    top: 10%;
+    left:40%;
+    animation-delay:-2.5s;
+  }
+  &.c2{
+    width: 2em;
+    top: 80%;
+    left:-30%;
+    animation-delay:-2.5s;
+  }
+  &.c3{
+    width: 1em;
+    top: 50%;
+    left:90%;
+    animation-delay:-2s;
+  }
+  &.c4{
+    width: 2em;
+    top: 30%;
+    left:50%;
+    animation-delay:-1.5s;
+  }
+  &.c5{
+    width: .5em;
+    top: 20%;
+    left: 0%;
+    animation-delay:-3.5s;
+  }
+}
+
+

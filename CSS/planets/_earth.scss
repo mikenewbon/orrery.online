@@ -2,7 +2,7 @@ $planetname:earth;
 $planetorder:3;
 $planetsize:5em;
 $planetcolour:#2e9cea;
-$orbittime:30s;
+$orbittime:365.2s;
 
 @import "planetstyles";
 
@@ -10,6 +10,6 @@ $moonname:luna;
 $moonorder: 1;
 $moonsize: 1em;
 $mooncolour: #838383;
-$moonorbittime:5s;
+$moonorbittime:27.3s;
 
 @import "moonstyles";

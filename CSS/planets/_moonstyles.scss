@@ -5,7 +5,7 @@ $moonorbitsize:$planetorder*2+5;
   width: $moonorbitsize+em;
   height: $moonorbitsize+em;
   background: none;
-  border: $orbitstroke dashed white;
+  border: $orbitstroke solid rgba(255, 255, 255, 0.2);
   border-radius:50%;
   left: - (($moonorbitsize /2) - ($planetsize / 2));
   top: - (($moonorbitsize /2) - ($planetsize / 2));
