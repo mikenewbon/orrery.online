@@ -1,9 +1,9 @@
 @keyframes lineanim {
   from {
-    transform:translateX(3em);
+    transform:translateX(4em);
   }
   to {
-    transform:translateX(-5em);
+    transform:translateX(-6em);
   }
 }
 @keyframes counterspin{
@@ -15,8 +15,8 @@
   }
 }
 .clouds{
-  width: 100%;
-  height: 100%;
+  width: $planetsize;
+  height: $planetsize;
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
@@ -38,39 +38,39 @@
   animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99);
   &.c1{
     width: 3em;
-    top: 10%;
-    left:40%;
-    animation-delay:-2.5s;
+    top: .25em;
+    left: 2em;
+    animation-delay: -2.5s;
   }
   &.c2{
     width: 2em;
-    top: 13%;
-    left: 41%;
+    top: .25em;
+    left: 2em;
     animation-delay: -6.5s;
   }
   &.c3{
     width: 1em;
-    top: 15%;
-    left: 64%;
+    top: .25em;
+    left: 3.1em;
     animation-delay: -9.8s;
   }
   &.c4{
     width: 2em;
-    top: 8%;
-    left: 50%;
+    top: .1em;
+    left: 2.4em;
     animation-delay: -9.5s;
   }
   &.c5{
     width: 2em;
-    top: 20%;
-    left: 49%;
+    top: .25em;
+    left: 1em;
     animation-delay: -2.5s;
   }
 }
 
 .islands{
-  width: 100%;
-  height: 100%;
+  width: $planetsize;
+  height: $planetsize;
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
@@ -92,32 +92,32 @@
   animation-timing-function: linear;
   &.i1{
     width: 3em;
-    top: 10%;
-    left:40%;
-    animation-delay:-2.5s;
+    top: .25em;
+    left: 2em;
+    animation-delay: -15s;
   }
   &.i2{
     width: 2em;
-    top: 13%;
-    left: 41%;
-    animation-delay: -6.5s;
+    top: -.5em;
+    left: 2.5em;
+    animation-delay: -9s;
   }
   &.i3{
-    width: 1em;
-    top: 15%;
-    left: 64%;
-    animation-delay: -9.8s;
+    width: 3em;
+    top: -1em;
+    left: 2em;
+    animation-delay: -40.8s;
   }
   &.i4{
     width: 2em;
-    top: 20%;
-    left: 50%;
-    animation-delay: -9.5s;
+    top: -.3em;
+    left: 2em;
+    animation-delay: -57s;
   }
   &.i5{
-    width: 2em;
-    top: 40%;
-    left: 49%;
-    animation-delay: -2.5s;
+    width: 1.25em;
+    top: -1em;
+    left: 2em;
+    animation-delay: -21s;
   }
 }

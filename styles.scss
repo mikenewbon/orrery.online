@@ -1,6 +1,6 @@
 @import "CSS/_reset";
 
-$sunsize:10em;
+$sunsize:15em;
 $orbitstroke: .1em;
 // NORMAL
 
@@ -33,11 +33,13 @@ body{
   left:0;
   top:0;
   font-size:.5em;
-  -webkit-transition: font-size 2.5s;
-  -moz-transition: font-size 2.5s;
-  -ms-transition: font-size 2.5s;
-  -o-transition: font-size 2.5s;
-  transition: font-size 2.5s;
+  /*
+  -webkit-transition: font-size .2s;
+  -moz-transition:    font-size .2s;
+  -ms-transition:     font-size .2s;
+  -o-transition:      font-size .2s;
+  transition:         font-size .2s;
+  */
 }
 
 #sun{
