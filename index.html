@@ -5,7 +5,6 @@
     <title>Orrery Online</title>
     <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/script.js"></script> -->
     <link rel="apple-touch-icon" sizes="57x57" href="ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="ico/apple-icon-60x60.png">
@@ -24,22 +23,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <script>
-        var standardFontSize = .5;
-        window.addEventListener("wheel", function(e) {
-            var scr = e.deltaY;
-
-            if (scr > 0 && standardFontSize>=0.25){
-                //upward
-                standardFontSize-=0.01;
-            }else if(standardFontSize<=2){
-                //downward
-                standardFontSize+=0.01;
-            }
-            document.getElementById("space").style.fontSize = standardFontSize+"em";
-        });
-
-    </script>
 </head>
 <body>
     <div id="stars">
@@ -102,18 +85,38 @@
                 <div id="earth_wrapper">
                     <div id="earth">
                         <div class="islands">
-                            <div class="island i1"></div>
-                            <div class="island i2"></div>
-                            <div class="island i3"></div>
-                            <div class="island i4"></div>
-                            <div class="island i5"></div>
+                            <div class="island_wrap i1">
+                                <div class="island i1"></div>
+                            </div>
+                            <div class="island_wrap i2">
+                                <div class="island i2"></div>
+                            </div>
+                            <div class="island_wrap i3">
+                                <div class="island i3"></div>
+                            </div>
+                            <div class="island_wrap i4">
+                                <div class="island i4"></div>
+                            </div>
+                            <div class="island_wrap i5">
+                                <div class="island i5"></div>
+                            </div>
                         </div>
                         <div class="clouds">
-                            <div class="cloud c1"></div>
-                            <div class="cloud c2"></div>
-                            <div class="cloud c3"></div>
-                            <div class="cloud c4"></div>
-                            <div class="cloud c5"></div>
+                            <div class="cloud_wrap c1">
+                                <div class="cloud c1"></div>
+                            </div>
+                            <div class="cloud_wrap c2">
+                                <div class="cloud c2"></div>
+                            </div>
+                            <div class="cloud_wrap c3">
+                                <div class="cloud c3"></div>
+                            </div>
+                            <div class="cloud_wrap c4">
+                                <div class="cloud c4"></div>
+                            </div>
+                            <div class="cloud_wrap c5">
+                                <div class="cloud c5"></div>
+                            </div>
                         </div>
                         <div id="luna_orbit">
                             <div id="luna_wrapper">

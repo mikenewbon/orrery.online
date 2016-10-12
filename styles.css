@@ -114,164 +114,164 @@ p {
   border-radius: 50%; }
 
 .star:nth-child(1) {
-  left: 89vw;
-  top: 82vh; }
+  left: 60vw;
+  top: 93vh; }
 
 .star:nth-child(2) {
-  left: 66vw;
-  top: 7vh; }
+  left: 14vw;
+  top: 34vh; }
 
 .star:nth-child(3) {
-  left: 14vw;
-  top: 18vh; }
+  left: 86vw;
+  top: 74vh; }
 
 .star:nth-child(4) {
-  left: 23vw;
-  top: 5vh; }
+  left: 84vw;
+  top: 57vh; }
 
 .star:nth-child(5) {
-  left: 44vw;
-  top: 26vh; }
+  left: 72vw;
+  top: 21vh; }
 
 .star:nth-child(6) {
-  left: 88vw;
-  top: 60vh; }
+  left: 27vw;
+  top: 41vh; }
 
 .star:nth-child(7) {
-  left: 74vw;
-  top: 11vh; }
-
-.star:nth-child(8) {
-  left: 28vw;
-  top: 7vh; }
-
-.star:nth-child(9) {
-  left: 33vw;
-  top: 46vh; }
-
-.star:nth-child(10) {
-  left: 26vw;
-  top: 22vh; }
-
-.star:nth-child(11) {
   left: 42vw;
   top: 82vh; }
 
+.star:nth-child(8) {
+  left: 39vw;
+  top: 34vh; }
+
+.star:nth-child(9) {
+  left: 89vw;
+  top: 41vh; }
+
+.star:nth-child(10) {
+  left: 100vw;
+  top: 70vh; }
+
+.star:nth-child(11) {
+  left: 78vw;
+  top: 83vh; }
+
 .star:nth-child(12) {
-  left: 26vw;
-  top: 78vh; }
+  left: 45vw;
+  top: 11vh; }
 
 .star:nth-child(13) {
-  left: 35vw;
-  top: 39vh; }
+  left: 40vw;
+  top: 58vh; }
 
 .star:nth-child(14) {
-  left: 24vw;
-  top: 19vh; }
+  left: 88vw;
+  top: 45vh; }
 
 .star:nth-child(15) {
-  left: 74vw;
-  top: 61vh; }
+  left: 96vw;
+  top: 37vh; }
 
 .star:nth-child(16) {
-  left: 97vw;
-  top: 24vh; }
-
-.star:nth-child(17) {
-  left: 59vw;
-  top: 12vh; }
-
-.star:nth-child(18) {
-  left: 75vw;
-  top: 48vh; }
-
-.star:nth-child(19) {
-  left: 25vw;
-  top: 95vh; }
-
-.star:nth-child(20) {
-  left: 3vw;
-  top: 35vh; }
-
-.star:nth-child(21) {
-  left: 87vw;
-  top: 40vh; }
-
-.star:nth-child(22) {
-  left: 43vw;
-  top: 66vh; }
-
-.star:nth-child(23) {
-  left: 83vw;
-  top: 1vh; }
-
-.star:nth-child(24) {
-  left: 70vw;
-  top: 69vh; }
-
-.star:nth-child(25) {
-  left: 15vw;
-  top: 99vh; }
-
-.star:nth-child(26) {
-  left: 11vw;
-  top: 98vh; }
-
-.star:nth-child(27) {
-  left: 45vw;
-  top: 57vh; }
-
-.star:nth-child(28) {
-  left: 63vw;
-  top: 90vh; }
-
-.star:nth-child(29) {
-  left: 57vw;
-  top: 75vh; }
-
-.star:nth-child(30) {
-  left: 53vw;
-  top: 77vh; }
-
-.star:nth-child(31) {
-  left: 71vw;
-  top: 79vh; }
-
-.star:nth-child(32) {
-  left: 59vw;
-  top: 52vh; }
-
-.star:nth-child(33) {
-  left: 22vw;
-  top: 61vh; }
-
-.star:nth-child(34) {
-  left: 57vw;
-  top: 12vh; }
-
-.star:nth-child(35) {
-  left: 76vw;
-  top: 33vh; }
-
-.star:nth-child(36) {
-  left: 18vw;
-  top: 23vh; }
-
-.star:nth-child(37) {
-  left: 84vw;
-  top: 20vh; }
-
-.star:nth-child(38) {
-  left: 9vw;
-  top: 24vh; }
-
-.star:nth-child(39) {
-  left: 66vw;
+  left: 5vw;
   top: 56vh; }
 
+.star:nth-child(17) {
+  left: 6vw;
+  top: 29vh; }
+
+.star:nth-child(18) {
+  left: 3vw;
+  top: 77vh; }
+
+.star:nth-child(19) {
+  left: 28vw;
+  top: 70vh; }
+
+.star:nth-child(20) {
+  left: 40vw;
+  top: 67vh; }
+
+.star:nth-child(21) {
+  left: 53vw;
+  top: 83vh; }
+
+.star:nth-child(22) {
+  left: 26vw;
+  top: 83vh; }
+
+.star:nth-child(23) {
+  left: 45vw;
+  top: 67vh; }
+
+.star:nth-child(24) {
+  left: 11vw;
+  top: 8vh; }
+
+.star:nth-child(25) {
+  left: 56vw;
+  top: 83vh; }
+
+.star:nth-child(26) {
+  left: 48vw;
+  top: 55vh; }
+
+.star:nth-child(27) {
+  left: 12vw;
+  top: 17vh; }
+
+.star:nth-child(28) {
+  left: 30vw;
+  top: 18vh; }
+
+.star:nth-child(29) {
+  left: 56vw;
+  top: 79vh; }
+
+.star:nth-child(30) {
+  left: 79vw;
+  top: 69vh; }
+
+.star:nth-child(31) {
+  left: 28vw;
+  top: 95vh; }
+
+.star:nth-child(32) {
+  left: 9vw;
+  top: 31vh; }
+
+.star:nth-child(33) {
+  left: 32vw;
+  top: 32vh; }
+
+.star:nth-child(34) {
+  left: 63vw;
+  top: 16vh; }
+
+.star:nth-child(35) {
+  left: 68vw;
+  top: 87vh; }
+
+.star:nth-child(36) {
+  left: 3vw;
+  top: 52vh; }
+
+.star:nth-child(37) {
+  left: 82vw;
+  top: 37vh; }
+
+.star:nth-child(38) {
+  left: 8vw;
+  top: 4vh; }
+
+.star:nth-child(39) {
+  left: 67vw;
+  top: 45vh; }
+
 .star:nth-child(40) {
-  left: 86vw;
-  top: 49vh; }
+  left: 92vw;
+  top: 36vh; }
 
 #mercury_orbit {
   position: absolute;
@@ -395,9 +395,9 @@ p {
 
 @keyframes lineanim {
   from {
-    transform: translateX(4em); }
+    transform: translateX(100%); }
   to {
-    transform: translateX(-6em); } }
+    transform: translateX(-100%); } }
 @keyframes counterspin {
   from {
     transform: translate(0) rotate(270deg); }
@@ -415,15 +415,28 @@ p {
   animation-timing-function: linear;
   animation-iteration-count: infinite; }
 
-.cloud {
-  position: relative;
-  height: .75em;
-  border-radius: 1em;
-  background: #fff;
+.cloud_wrap {
+  width: 100%;
   animation-name: lineanim;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99); }
+  .cloud_wrap.c1 {
+    animation-delay: -2.5s; }
+  .cloud_wrap.c2 {
+    animation-delay: -6.5s; }
+  .cloud_wrap.c3 {
+    animation-delay: -9.8s; }
+  .cloud_wrap.c4 {
+    animation-delay: -9.5s; }
+  .cloud_wrap.c5 {
+    animation-delay: -2.5s; }
+
+.cloud {
+  position: relative;
+  height: .75em;
+  border-radius: 1em;
+  background: #fff; }
   .cloud.c1 {
     width: 3em;
     top: .25em;
@@ -462,15 +475,28 @@ p {
   animation-timing-function: linear;
   animation-iteration-count: infinite; }
 
-.island {
-  position: relative;
-  height: 1.25em;
-  border-radius: 1em;
-  background: #6ece4f;
+.island_wrap {
+  width: 100%;
   animation-name: lineanim;
   animation-duration: 60s;
   animation-iteration-count: infinite;
   animation-timing-function: linear; }
+  .island_wrap.i1 {
+    animation-delay: -15s; }
+  .island_wrap.i2 {
+    animation-delay: -9s; }
+  .island_wrap.i3 {
+    animation-delay: -40.8s; }
+  .island_wrap.i4 {
+    animation-delay: -57s; }
+  .island_wrap.i5 {
+    animation-delay: -21s; }
+
+.island {
+  position: relative;
+  height: 1.25em;
+  border-radius: 1em;
+  background: #6ece4f; }
   .island.i1 {
     width: 3em;
     top: .25em;

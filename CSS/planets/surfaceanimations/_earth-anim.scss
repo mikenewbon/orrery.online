@@ -1,9 +1,9 @@
 @keyframes lineanim {
   from {
-    transform:translateX(4em);
+    transform:translateX(100%);
   }
   to {
-    transform:translateX(-6em);
+    transform:translateX(-100%);
   }
 }
 @keyframes counterspin{
@@ -27,15 +27,38 @@
   animation-iteration-count: infinite;
 }
 
+.cloud_wrap{
+  width:100%;
+  animation-name: lineanim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99);
+  &.c1{
+    animation-delay: -2.5s;
+  }
+  &.c2{
+
+    animation-delay: -6.5s;
+  }
+  &.c3{
+
+    animation-delay: -9.8s;
+  }
+  &.c4{
+
+    animation-delay: -9.5s;
+  }
+  &.c5{
+
+    animation-delay: -2.5s;
+  }
+}
+
 .cloud{
   position: relative;
   height:.75em;
   border-radius:1em;
   background:#fff;
-  animation-name: lineanim;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.18, 0.01, 0.8, 0.99);
   &.c1{
     width: 3em;
     top: .25em;
@@ -81,15 +104,40 @@
   animation-iteration-count: infinite;
 }
 
+.island_wrap{
+  width:100%;
+  animation-name: lineanim;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  &.i1{
+
+    animation-delay: -15s;
+  }
+  &.i2{
+
+    animation-delay: -9s;
+  }
+  &.i3{
+
+    animation-delay: -40.8s;
+  }
+  &.i4{
+
+    animation-delay: -57s;
+  }
+  &.i5 {
+
+    animation-delay: -21s;
+  }
+}
+
 .island{
   position: relative;
   height:1.25em;
   border-radius:1em;
   background: #6ece4f;
-  animation-name: lineanim;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+
   &.i1{
     width: 3em;
     top: .25em;

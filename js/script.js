@@ -1,16 +1,13 @@
-$(document).ready(function(){
+var standardFontSize = .5;
+window.addEventListener("wheel", function(e) {
+    var scr = e.deltaY;
 
-    $(window).bind('mousewheel', function(e) {
-        if(e.originalEvent.wheelDelta / 120 > 0) {
-            changeZoom(1);
-        } else {
-            changeZoom(-1);
-        }
-    });
-
-})
-
-function changeZoom($int) {
-    $('#space').css('font-size', parseInt($('#space').css('font-size')) + $int);
-    console.log(parseInt($('#space').css('font-size')));
-}
+    if (scr > 0 && standardFontSize>=0.25){
+        //upward
+        standardFontSize-=0.01;
+    }else if(standardFontSize<=2){
+        //downward
+        standardFontSize+=0.01;
+    }
+    document.getElementById("space").style.fontSize = standardFontSize+"em";
+});
